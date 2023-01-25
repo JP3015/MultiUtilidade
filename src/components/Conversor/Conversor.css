@@ -1,6 +1,18 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+@media (max-height:970px){
+    body{
+        min-height: 86.6vh;
+        display: flex;
+        flex-direction: column;
+    }
+}
 .container{
-    padding-top: 100px;
-    text-align: center;
+    padding-top: 200px;
 }
 button:hover{
     transform:scale(1.05,1.05);
@@ -20,7 +32,6 @@ button{
     height: 25px;
 }
 .temperatura{
-    padding-top: 100px;
     padding-bottom: 100px;
     align-items: center;
     display: flex;

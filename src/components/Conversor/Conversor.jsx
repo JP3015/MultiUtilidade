@@ -9,8 +9,8 @@ export default function Conversor(){
 
 
     return(
-        <body class="container">
-            <main>
+        <body>
+            <main class="container">
                 <div class="temperatura">
                     <p class="texto">Coloque a temperatura em Kelvin para transformar em Celcius:</p>
                     <input class="input" type="number" value = {inputTemperature} onInput={e => setInputTemperature(e.target.value)}/>

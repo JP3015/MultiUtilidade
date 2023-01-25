@@ -9,15 +9,14 @@ header{
 }
 h1{
     margin: 0;
-    text-align: center;
     font-family:sans-serif;
+    text-align: center;
+    padding-bottom: 6px;
 }
 .rotas{
-    margin: 0;
-    justify-content: center;
+    justify-content: space-evenly;
     display: flex;
     flex-direction: row;
-    gap: 300px;
     font-weight: bold;
     font-family:sans-serif;
     
