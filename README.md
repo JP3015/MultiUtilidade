@@ -1,3 +1,14 @@
+### PROJETO
+Esse projeto é uma aplicação web com multiplas funcionalidades, com o intuito de aprender a programar em JavaScript usando React.
+
+
+## FEATURES
+- Converter Kelvin para Celcius.
+- Converter Polegadas para Centímetros.
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
