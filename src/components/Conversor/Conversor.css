@@ -1,0 +1,40 @@
+.container{
+    padding-top: 100px;
+    text-align: center;
+}
+button:hover{
+    transform:scale(1.05,1.05);
+    -webkit-transform:scale(1.05,1.05);
+    -moz-transform:scale(1.05,1.05);
+  }
+.button:active {
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+button{
+    border-radius: 5px;
+    border-color: azure;
+    background-color: rgb(88, 88, 180);
+    color: white;
+    width: 100px;
+    height: 25px;
+}
+.temperatura{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.texto{
+    font-size: 35px;
+}
+.input{
+    width: 200px;
+}
+.centimetros{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}

@@ -9,19 +9,19 @@ export default function Conversor(){
 
 
     return(
-        <body>
+        <body class="container">
             <main>
-                <div>
-                    <p>Coloque a temperatura em Kelvin para transformar em Celcius:</p>
-                    <input type="number" value = {inputTemperature} onInput={e => setInputTemperature(e.target.value)}/>
-                    <span>{varTemperature}</span>
+                <div class="temperatura">
+                    <p class="texto">Coloque a temperatura em Kelvin para transformar em Celcius:</p>
+                    <input class="input" type="number" value = {inputTemperature} onInput={e => setInputTemperature(e.target.value)}/>
                     <button onClick={() => {setVarTemperature(inputTemperature - 273 + "°C")}}>Clique aqui</button>
+                    <span>{varTemperature}</span>
                 </div>
-                <div>
-                    <p>Coloque o tamanho em polegadas para transformar em centímetros:</p>
-                    <input type="number" value = {inputLenght} onInput={e => setInputLenght(e.target.value)}/>
+                <div class="centimetros">
+                    <p class="texto">Coloque o tamanho em polegadas para transformar em centímetros:</p>
+                    <input class="input" type="number" value = {inputLenght} onInput={e => setInputLenght(e.target.value)}/>
+                    <button onClick={() => {setVarLenght(inputTemperature - 273 + " Centímetros")}}>Clique aqui</button>
                     <span>{varLenght}</span>
-                    <button onClick={() => {setVarLenght(inputTemperature - 273 + "°C")}}>Clique aqui</button>
                 </div>
             </main>
         </body>

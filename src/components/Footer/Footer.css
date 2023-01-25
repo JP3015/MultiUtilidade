@@ -1,0 +1,13 @@
+footer{
+    position:fixed;
+    height:50px;
+    bottom:0;
+    left:0;
+    width:100%;
+    color: goldenrod;
+    background-color: black;
+}
+.textoFooter{
+    text-align: center;
+    padding-top: 16px; 
+}
