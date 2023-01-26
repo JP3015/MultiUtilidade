@@ -6,10 +6,34 @@ export default function Header(){
         <header>
             <h1 class="textoHeader"><b>Multi-Utilidade</b></h1>
             <div class="rotas">
-                <p class="rotasTexto">Conversor</p>
-                <p class="rotasTexto">IP</p>
-                <p class="rotasTexto">Desenhar</p>
-                <p class="rotasTexto">Sobre</p>
+                <ul>
+                    <li>
+                        <a class="pages" href="#">
+                            <i>Conversor</i>
+                        </a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a class="pages" href="#">
+                            <i>IP</i>
+                        </a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a class="pages" href="#">
+                            <i>Desenhar</i>
+                        </a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a class="pages" href="#">
+                            <i>Sobre</i>
+                        </a>
+                    </li>
+                </ul>
             </div>
         </header>
     )

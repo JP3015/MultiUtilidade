@@ -24,12 +24,13 @@ button:hover{
     box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
 }
 button{
-    border-radius: 5px;
-    border-color: azure;
-    background-color: rgb(88, 88, 180);
+    border-color: rgb(14, 141, 180);
+    background-color: rgb(14, 141, 180);
     color: white;
     width: 100px;
     height: 25px;
+    margin-bottom: 10px;
+    transition: .2s;
 }
 .temperatura{
     padding-bottom: 100px;
@@ -41,11 +42,22 @@ button{
 .texto{
     font-size: 35px;
 }
-.input{
+input{
     width: 200px;
+    height: 20px;
+    text-align: center;
+    margin: 15px;
 }
 .centimetros{
     align-items: center;
     display: flex;
     flex-direction: column;
+}
+
+select{
+    margin-left: 10px;
+    border-radius: 5px;
+    width: 150px;
+    height: 25px;
+    font-size: 20px;
 }
