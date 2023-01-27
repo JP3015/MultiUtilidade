@@ -18,23 +18,23 @@ export default function Ip(){
         <>
             <Header />
             <body>
-                <div className="row">
+                <div>
                     <h2>Achar endereço de Ip</h2>
-                    <p className="mt-3">
+                    <p>
                         <button
                             className="btn btn-primary"
                             onClick={getUserGeolocationDetails}>
                             Clique aqui
                         </button>
-                        <div className="row justify-content-center mt-3">
-                            <div className="col-lg-6 text-center text-dark">
+                        <div>
+                            <div>
                                 {details && (
-                                    <ul className="list-group">
-                                        <li className="list-group-item">
+                                    <ul>
+                                        <li>
                                             Localização :{" "}
                                             {`${details.city}, ${details.country_name}(${details.country_code})`}
                                         </li>
-                                        <li className="list-group-item">
+                                        <li>
                                             IP: {details.IPv4}
                                         </li>
                                     </ul>
