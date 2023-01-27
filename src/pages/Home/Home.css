@@ -1,0 +1,67 @@
+.home{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.url{
+    text-decoration: none;
+    font-weight: bold;
+    font-family:sans-serif;
+}
+
+.homeRoutes{
+    padding-left: 150px;
+}
+
+.ulHome {
+    transform: translate(-50%, -50%);
+    padding-bottom: 30px;
+}
+  
+.liHome {
+    list-style: none;
+    
+}
+  
+.url{
+    position: relative; 
+    display: block;
+    width: 150px;
+    height: 60px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 60px;
+    background: #333;
+    font-size: 22px;
+    color: #666;
+    transition: .5s;
+}
+  
+.url::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    background: goldenrod;
+    transition: .5s;
+    transform: scale(.9);
+    z-index: -1;
+}
+  
+.url:hover::before {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px goldenrod;
+}
+  
+.url:hover {
+    color: goldenrod;
+    box-shadow: 0 0 5px goldenrod;
+    text-shadow: 0 0 5px goldenrod;
+}

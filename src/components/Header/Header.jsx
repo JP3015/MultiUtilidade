@@ -4,32 +4,32 @@ import './Header.css'
 export default function Header(){
     return(
         <header>
-            <h1 class="textoHeader"><b>Multi-Utilidade</b></h1>
-            <div class="rotas">
-                <ul>
-                    <li>
-                        <a class="pages" href="#">
+            <h1 className="textHeader"><b>Multi-Utilidade</b></h1>
+            <div className="routes">
+                <ul className="ulRoutes">
+                    <li className="liRoutes">
+                        <a className="pages" href="conversor">
                             <i>Conversor</i>
                         </a>
                     </li>
                 </ul>
-                <ul>
-                    <li>
-                        <a class="pages" href="#">
+                <ul className="ulRoutes">
+                    <li className="liRoutes">
+                        <a className="pages" href="ip">
                             <i>IP</i>
                         </a>
                     </li>
                 </ul>
-                <ul>
-                    <li>
-                        <a class="pages" href="#">
+                <ul className="ulRoutes">
+                    <li className="liRoutes">
+                        <a className="pages" href="#">
                             <i>Desenhar</i>
                         </a>
                     </li>
                 </ul>
-                <ul>
-                    <li>
-                        <a class="pages" href="#">
+                <ul className="ulRoutes">
+                    <li className="liRoutes">
+                        <a className="pages" href="#">
                             <i>Sobre</i>
                         </a>
                     </li>

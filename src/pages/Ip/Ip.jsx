@@ -1,16 +1,21 @@
-import React, {useState} from 'react'
+import React from 'react'
+import Header from '../../components/Header/Header'
+import Footer from '../../components/Footer/Footer'
 import './Ip.css'
-
 
 
 export default function Ip(){
     return(
-        <body>
-            <main>
-                <div>
-                    <p>TESTE</p>
-                </div>
-            </main>
-        </body>
+        <html>
+            <Header />
+            <body>
+                <main >
+                    <div>
+                       <p>Teste</p> 
+                    </div>
+                </main>
+            </body>
+            <Footer />
+        </html>
     )
 }

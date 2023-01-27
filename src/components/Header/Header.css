@@ -7,13 +7,13 @@ header{
     color: goldenrod;
     height: 80px;
 }
-h1{
+.textHeader{
     margin: 0;
     font-family:sans-serif;
     text-align: center;
     padding-bottom: 6px;
 }
-.rotas{
+.routes{
     justify-content: space-evenly;
     display: flex;
     flex-direction: row;
@@ -26,16 +26,16 @@ h1{
     text-decoration: none;
 }
 
-ul {
+.ulRoutes {
     transform: translate(-50%, -50%);
-  }
+}
   
-  ul li {
+.liRoutes {
     list-style: none;
     padding-top: 28px;
-  }
+}
   
-  ul li a {
+.pages {
     position: relative; 
     display: block;
     width:100px;
@@ -47,9 +47,9 @@ ul {
     font-size: 15px;
     color: #666;
     transition: .5s;
-  }
+}
   
-  ul li a::before {
+.pages::before {
     content: '';
     position: absolute;
     top: 0;
@@ -61,15 +61,15 @@ ul {
     transition: .5s;
     transform: scale(.9);
     z-index: -1;
-  }
+}
   
-  ul li a:hover::before {
+.pages:hover::before {
     transform: scale(1.05);
     box-shadow: 0 0 15px goldenrod;
-  }
+}
   
-  ul li a:hover {
+.pages:hover {
     color: goldenrod;
     box-shadow: 0 0 5px goldenrod;
     text-shadow: 0 0 5px goldenrod;
-  }
+}
