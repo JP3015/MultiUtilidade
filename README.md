@@ -3,8 +3,8 @@ Esse projeto é uma aplicação web com multiplas funcionalidades, com o intuito
 
 
 ## FEATURES
-- Converter Kelvin para Celcius.
-- Converter Polegadas para Centímetros.
+- Conversor para graus Celcius.
+- Conversor para Centímetros.
 
 
 
