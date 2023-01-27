@@ -21,8 +21,7 @@ export default function Ip(){
                 <div>
                     <h2>Achar endereço de Ip</h2>
                     <p>
-                        <button
-                            className="btn btn-primary"
+                        <button>
                             onClick={getUserGeolocationDetails}>
                             Clique aqui
                         </button>
