@@ -21,7 +21,7 @@ export default function Home(){
                 </ul>
                 <ul className="ulHome">
                     <li className="liHome">
-                        <a class="url" href="#">
+                        <a class="url" href="desenhar">
                             <i>Desenhar</i>
                         </a>
                     </li>

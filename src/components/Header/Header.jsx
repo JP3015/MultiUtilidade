@@ -22,7 +22,7 @@ export default function Header(){
                 </ul>
                 <ul className="ulRoutes">
                     <li className="liRoutes">
-                        <a className="pages" href="#">
+                        <a className="pages" href="desenhar">
                             <i>Desenhar</i>
                         </a>
                     </li>
