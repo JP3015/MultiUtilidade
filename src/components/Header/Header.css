@@ -5,13 +5,13 @@ header{
     margin: 0;
     background-color: black;
     color: goldenrod;
-    height: 80px;
+    height: 100px;
 }
 .textHeader{
     margin: 0;
     font-family:sans-serif;
     text-align: center;
-    padding-bottom: 6px;
+    padding-bottom: 20px;
 }
 .routes{
     justify-content: space-evenly;
@@ -20,10 +20,6 @@ header{
     font-weight: bold;
     font-family:sans-serif;
     padding-left: 95px;
-}
-
-.pages{
-    text-decoration: none;
 }
 
 .ulRoutes {
@@ -35,21 +31,22 @@ header{
     padding-top: 28px;
 }
   
-.pages {
+.button-page {
+    text-decoration: none;
     position: relative; 
     display: block;
-    width:100px;
-    height: 33px;
+    width: 120px;
+    height: 38px;
     border-radius: 5px;
     text-align: center;
-    line-height: 30px;
+    line-height: 38px;
     background: #333;
-    font-size: 15px;
+    font-size: 18px;
     color: #666;
     transition: .5s;
 }
   
-.pages::before {
+.button-page::before {
     content: '';
     position: absolute;
     top: 0;
@@ -63,12 +60,12 @@ header{
     z-index: -1;
 }
   
-.pages:hover::before {
+.button-page:hover::before {
     transform: scale(1.05);
     box-shadow: 0 0 15px goldenrod;
 }
   
-.pages:hover {
+.button-page:hover {
     color: goldenrod;
     box-shadow: 0 0 5px goldenrod;
     text-shadow: 0 0 5px goldenrod;

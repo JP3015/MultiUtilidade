@@ -18,14 +18,15 @@ export default function Ip(){
         <>
             <Header />
             <body>
-                <div>
-                    <h2>Achar endereço de Ip</h2>
+                <div className="center-screen">
+                    <h2 className="ip-title">Achar endereço de Ip</h2>
                     <p>
-                        <button>
+                        <button
+                            className="btn-primary"
                             onClick={getUserGeolocationDetails}>
                             Clique aqui
                         </button>
-                        <div>
+                        <div className="ip-location">
                             <div>
                                 {details && (
                                     <ul>
@@ -45,5 +46,5 @@ export default function Ip(){
             </body>
             <Footer />
         </>
-    );
-};
+    )
+}

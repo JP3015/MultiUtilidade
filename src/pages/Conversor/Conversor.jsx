@@ -35,9 +35,9 @@ export default function Conversor(){
         <html>
             <Header />
             <body>
-                <main class="container">
-                    <div class="temperatura">
-                        <p class="texto">Coloque a temperatura em
+                <main className="container">
+                    <div className="temperatura">
+                        <p className="texto">Coloque a temperatura em
                             <select value={temperature} onChange={e => setTemperature(e.target.value)}>
                                 <option value="kelvin">Kelvin</option>
                                 <option value="fahrenheit">Fahrenheit</option>
@@ -47,8 +47,8 @@ export default function Conversor(){
                         <button onClick={countTemperature}>Clique aqui</button>
                         <span><b>Resultado: </b>{varTemperature}</span>
                     </div>
-                    <div class="centimetros">
-                        <p class="texto">Coloque o tamanho em
+                    <div className="centimetros">
+                        <p className="texto">Coloque o tamanho em
                             <select value={lenght} onChange={e => setLenght(e.target.value)}>
                                 <option value="polegadas">Polegadas</option>
                                 <option value="pes">Pés</option>

@@ -1,37 +1,7 @@
-body{
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-
-}
-@media (max-height:970px){
-    body{
-        min-height: 86.6vh;
-        display: flex;
-        flex-direction: column;
-    }
-}
 .container{
     padding-top: 200px;
 }
-button:hover{
-    transform:scale(1.05,1.05);
-    -webkit-transform:scale(1.05,1.05);
-    -moz-transform:scale(1.05,1.05);
-  }
-.button:active {
-    transform: scale(0.98);
-    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
-}
-button{
-    border-color: rgb(14, 141, 180);
-    background-color: rgb(14, 141, 180);
-    color: white;
-    width: 100px;
-    height: 25px;
-    margin-bottom: 10px;
-    transition: .2s;
-}
+
 .temperatura{
     padding-bottom: 100px;
     align-items: center;
@@ -54,10 +24,4 @@ input{
     flex-direction: column;
 }
 
-select{
-    margin-left: 10px;
-    border-radius: 5px;
-    width: 150px;
-    height: 25px;
-    font-size: 20px;
-}
+

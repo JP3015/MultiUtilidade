@@ -1,3 +1,38 @@
-.map{
-    height: 180px;
+.center-screen {
+    display: flex;
+    margin-top: 200px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+.btn-primary{
+    font-size: 20px;
+    margin: 40px 0px;
+    border-color: rgb(14, 141, 180);
+    background-color: rgb(14, 141, 180);
+    color: white;
+    width: 150px;
+    height: 40px;
+    transition: .2s;
+}   
+
+.ip-title{
+    font-size: 50px;
 }
+
+.ip-location{
+    font-size: 35px;
+}
+
+.btn-primary:hover{
+    transform:scale(1.05,1.05);
+    -webkit-transform:scale(1.05,1.05);
+    -moz-transform:scale(1.05,1.05);
+}
+
+.btn-primary:active {
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+

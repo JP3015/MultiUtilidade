@@ -1,0 +1,14 @@
+.sobre-title{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 40px;
+}
+
+.sobre-text{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 18px;
+    margin-left: 100px;
+    margin-right: 100px;
+}

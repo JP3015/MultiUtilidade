@@ -8,28 +8,28 @@ export default function Header(){
             <div className="routes">
                 <ul className="ulRoutes">
                     <li className="liRoutes">
-                        <a className="pages" href="conversor">
+                        <a className="button-page" href="conversor">
                             <i>Conversor</i>
                         </a>
                     </li>
                 </ul>
                 <ul className="ulRoutes">
                     <li className="liRoutes">
-                        <a className="pages" href="ip">
+                        <a className="button-page" href="ip">
                             <i>IP</i>
                         </a>
                     </li>
                 </ul>
                 <ul className="ulRoutes">
                     <li className="liRoutes">
-                        <a className="pages" href="desenhar">
+                        <a className="button-page" href="desenhar">
                             <i>Desenhar</i>
                         </a>
                     </li>
                 </ul>
                 <ul className="ulRoutes">
                     <li className="liRoutes">
-                        <a className="pages" href="#">
+                        <a className="button-page" href="sobre">
                             <i>Sobre</i>
                         </a>
                     </li>

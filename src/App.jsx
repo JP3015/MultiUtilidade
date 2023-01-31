@@ -4,7 +4,7 @@ import Home from './pages/Home/Home'
 import Conversor from './pages/Conversor/Conversor';
 import Ip from './pages/Ip/Ip'
 import Desenhar from './pages/Desenhar/Desenhar'
-
+import Sobre from './pages/Sobre/Sobre'
 
 function App(){
   return(
@@ -14,6 +14,7 @@ function App(){
               <Route path="/conversor" element={<Conversor />}/>
               <Route path="/ip" element={<Ip />}/>
               <Route path="/desenhar" element={<Desenhar />}/>
+              <Route path="/sobre" element={<Sobre />}/>
           </Routes>
       </Router>
     )
