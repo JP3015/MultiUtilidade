@@ -5,7 +5,8 @@ Esse projeto é uma aplicação web com multiplas funcionalidades, com o intuito
 ## FEATURES
 - Conversor para graus Celcius.
 - Conversor para Centímetros.
-
+- Localizar IP.
+- Paint para desenhar.
 
 
 
